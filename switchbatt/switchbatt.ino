@@ -8,10 +8,10 @@ const int relay2 = 5;
 const int relay3 = 4;
 
 String response;
-const char *ssid = "HRES";  //Nama Wifi
-const char *password = "PrambananA18"; // pass wifi 
+const char *ssid = "xxxx";  //Nama Wifi
+const char *password = "xxxxx"; // pass wifi 
 
-String serverName = "http://plts.pramhres.my.id/switching.php";
+String serverName = "xxxx"; //url to endpoint
 
 void setup() {
   // put your setup code here, to run once:

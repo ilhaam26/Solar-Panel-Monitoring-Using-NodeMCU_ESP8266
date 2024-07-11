@@ -6,11 +6,10 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266HTTPClient.h>
 
-const char *ssid = "HRES";  //Nama Wifi
-const char *password = "PrambananA18"; // pass wifi 
+const char *ssid = "xxxx";  //Nama Wifi
+const char *password = "xxxxx"; // pass wifi 
 
-String serverName = "http://plts.pramhres.my.id/kirimvbatt.php";
-//String serverName = "http://endpoint.pramhres.my.id/wt/inputVolt.php";
+String serverName = "xxxxx"; //url to endpoint
 
 unsigned long lastTime = 0;
 // Timer set to 10 minutes (600000)
